@@ -11,7 +11,7 @@
 
 ## Language
 
-This program is written in C.
+This program is written in Python.
 <br>
 
 ## Introduction
