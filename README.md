@@ -14,7 +14,7 @@
 
 ## Language
 
-This static library is written in C++.
+This static library is written in Python.
 <br>
 
 ## Introduction
@@ -77,7 +77,7 @@ I'm developing on linux and macOS, and the library was tested on linux.
 ## Internal tools
 
 
-- The library used system calls like 'sigsetjmp', 'siglongjmp' and 'sigprocmask'
+- The program used the libraries: 'numpy'
 - The following headers are included in the library: 'signal.h' and 'sys/time.h'
     
 
