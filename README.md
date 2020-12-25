@@ -6,7 +6,7 @@
 1. [Language](#Language)
 2. [Introduction](#introduction)
 3. [Setup](#setup)
-4. [Library functions](#Library-functions)
+4. [Api](#Api)
 5. [Supported OS](#supported-os)
 6. [Internal tools](#Internal-tools)
 
@@ -35,7 +35,7 @@ Each thread can be in one of the following states: RUNNING, BLOCKED and READY.
 Include the 'uthreads.h' header
 <br>
 
-## Library functions
+## Api
 
 ```typescript
 int uthread_init(int *quantum_usecs, int size)
@@ -77,7 +77,9 @@ I'm developing on linux and macOS, and the library was tested on linux.
 ## Internal tools
 
 
-- The program used the libraries: 'numpy'
+- The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.
+
+
 - The following headers are included in the library: 'signal.h' and 'sys/time.h'
     
 
