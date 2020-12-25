@@ -38,34 +38,19 @@ Include the 'uthreads.h' header
 ## Api
 
 ```typescript
-int uthread_init(int *quantum_usecs, int size)
+build_gaussian_pyramid(im, max_levels, filter_size)
 /**
- * This function initializes the thread library.
+ * This function construct a Gaussian pyramid of a given image.
+ */
+ 
+build_laplacian_pyramid(im, max_levels, filter_size)
+/**
+ * This function construct a Laplacian pyramid of a given image.
  */
 
-int uthread_spawn(void (*f)(void), int priority)
+display_pyramid(pyr, levels)
 /**
- * This function creates a new thread, whose entry point is the function f with the signature void f(void).
- */
-
-int uthread_change_priority(int tid, int priority)
-/**
- * This function initializes the thread library.
- */
-
-int uthread_terminate(int tid)
-/**
- * This function changes the priority of the thread with ID tid.
- */
-
-int uthread_block(int tid)
-/**
- *  This function blocks the thread with ID tid.
- */
-
-int uthread_resume(int tid)
-/**
- * This function resumes a blocked thread with ID tid.
+ * This function display the pyramid.
  */
 
 ```
