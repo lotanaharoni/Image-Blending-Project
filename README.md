@@ -11,9 +11,8 @@ The program deals with image pyramids, low-pass and band-pass filtering.<br>
 ## Table of Contents
 
 1. [Key Features](#Key-Features)
-4. [Api](#Api)
-5. [Supported OS](#supported-os)
-6. [Internal tools](#Internal-tools)
+2. [Supported OS](#supported-os)
+3. [Internal tools](#Internal-tools)
 
 ---
 <br>
@@ -38,36 +37,6 @@ The program deals with image pyramids, low-pass and band-pass filtering.<br>
 <img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/All%20pictures.png?raw=true" width = 400px hight = 400px/>
 </p>
 
-
-## Api
-
-```typescript
-build_gaussian_pyramid(im, max_levels, filter_size)
-/**
- * This function construct a Gaussian pyramid of a given image.
- */
- 
-build_laplacian_pyramid(im, max_levels, filter_size)
-/**
- * This function construct a Laplacian pyramid of a given image.
- */
-
-display_pyramid(pyr, levels)
-/**
- * This function display the pyramid.
- */
- 
-pyramid_blending(im1, im2, mask, max_levels, filter_size_im, filter_size_mask)
-/**
- * This function implementing a pyramid blending.
- */
- 
-blending_images(image1_name, image2_name, mask_name, max_levels, filter_size_im, filter_size_mask)
-/**
- * This function implements blending between two images.
- */
-
-```
 
 ## Supported OS
 
