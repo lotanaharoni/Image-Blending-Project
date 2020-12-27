@@ -16,7 +16,7 @@ The program deals with image pyramids, low-pass and band-pass filtering.<br>
 
 ---
 <br>
-# Key Features
+## Key Features
 <br>
 
 ## Gets the High frequencies
