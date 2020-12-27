@@ -6,12 +6,7 @@
 This program performs blending on two images using pyramid blending. <br>
 The program deals with image pyramids, low-pass and band-pass filtering.<br>
 
-The GUI is done with Tkinter library.
 <br><br><br>
-
-
-<h1> Image-Blending-Project</h1>
-<p>Include the library and use it according to the package's public interface</p>
 
 ## Table of Contents
 
