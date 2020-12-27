@@ -1,3 +1,15 @@
+
+<img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/Blended%20picture.png?raw=true" align="left" width = 300px hight = 300px  hspace="1" vspace="1"/>
+
+# Image-Blending-Project
+
+This is an interactive Connect Four program that applies a graphical user interface (GUI) with multiply choices to play.
+All the project is written in Python.
+
+The GUI is done with Tkinter library.
+<br><br><br>
+
+
 <h1> Image-Blending-Project</h1>
 <p>Include the library and use it according to the package's public interface</p>
 
@@ -77,15 +89,6 @@ I'm developing on linux and macOS, and the library was tested on linux.
 
 
 
-<img src="https://github.com/lotanaharoni/Connect-Four-game/blob/main/images/Connect_Four_Computer_VS_Man.gif?raw=true" align="left" width = 300px hight = 300px  hspace="1" vspace="1"/>
-
-# Connect Four game Python
-
-This is an interactive Connect Four program that applies a graphical user interface (GUI) with multiply choices to play.
-All the project is written in Python.
-
-The GUI is done with Tkinter library.
-<br><br><br>
 
 The rules of this game are the same as a regular <a href="https://en.wikipedia.org/wiki/Connect_Four" > Connect Four</a>.<br>
 Follow the key features before you start to play.<br>
