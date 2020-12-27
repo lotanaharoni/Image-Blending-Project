@@ -6,7 +6,7 @@
 This program performs blending on two images using pyramid blending. <br>
 The program deals with image pyramids, low-pass and band-pass filtering.<br>
 
-<br><br><br>
+<br><br><br><br>
 
 ## Table of Contents
 
