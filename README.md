@@ -11,58 +11,33 @@ The program deals with image pyramids, low-pass and band-pass filtering.<br>
 ## Table of Contents
 
 1. [Key Features](#Key-Features)
-2. [Language](#Language)
-2. [Introduction](#introduction)
-3. [Setup](#setup)
 4. [Api](#Api)
 5. [Supported OS](#supported-os)
 6. [Internal tools](#Internal-tools)
 
 ---
-
+<br>
 # Key Features
 <br>
 
-## Configure the game settings
-#### 1. Choose the game's mode you wish to play.
-##### a. Player VS Player
-##### b. Player VS Computer - player starts
-##### c. Player VS Computer - computer starts
-##### d. Cimputer VS Computer
-#### 2. Remember, the yellow player starts!
+## Gets the High frequencies
+### In order to blend the images smoothly
 <p align="center">
-<img src="https://github.com/lotanaharoni/Connect-Four-game/blob/main/images/Connect_Four_Menu.png?raw=true" width = 400px hight = 400px/>
+<img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/High_frequencies.png?raw=true" width = 400px hight = 400px/>
 </p>
 
-## Play agains a friend
-### The game offers the option to play against a friend.
-#### 1. Pick the column to drop your disc. 
+## Gets the image pyramid
+### In order to blend the images
 <p align="center">
-<img src="https://github.com/lotanaharoni/Connect-Four-game/blob/main/images/Connect_Four_MAN_VS_MAN.gif?raw=true" width = 400px hight = 400px/>
+<img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/Elsa_High_frequrncies.png?raw=true" width = 400px hight = 400px/>
 </p>
 
-## Language
+## Images blending
+### The final results
+<p align="center">
+<img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/All%20pictures.png?raw=true" width = 400px hight = 400px/>
+</p>
 
-This program is written in Python and uses mainly im 'numpy' library.
-<br>
-
-## Introduction
-
-This is a static library, that creates and manages user-level threads.<br>
-The library implements Round-Robin scheduling alghorithm.<br>
-Each thread can be in one of the following states: RUNNING, BLOCKED and READY.
-<br>
-
-### Benefits
-
-- The user can create, block, resume and terminate threads.
-- The library supports different threads with different priorities, high priority threads will<br>
-  get more time in the CPU when their turn arrive.
-
-## Setup
-
-Include the 'uthreads.h' header
-<br>
 
 ## Api
 
@@ -100,31 +75,7 @@ I'm developing on linux and macOS, and the library was tested on linux.
 
 ## Internal tools
 
+This program is written in Python.
 - The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.    
-
-
-
-
-
-The rules of this game are the same as a regular <a href="https://en.wikipedia.org/wiki/Connect_Four" > Connect Four</a>.<br>
-Follow the key features before you start to play.<br>
-Enjoy!
-
-<br> 
-
-## Play against the computer
-### The game offers the option to play against the computer.<br>
-### Can you beat the computer?
-<p align="center">
-<img src="https://github.com/lotanaharoni/Connect-Four-game/blob/main/images/Connect_Four_Computer_VS_Man.gif?raw=true" width = 400px hight = 400px/>
-</p>
-
-
-## Restart the game
-### You have the option to restart the game and to start from the beginning.
-#### 1. Click the 'Restart' button at the right panel.
-<p align="center">
-  <img src="https://github.com/lotanaharoni/Connect-Four-game/blob/main/images/Connect_Four_restart.gif?raw=true" width = 400px hight = 400px/>
-</p>
 
     
