@@ -52,6 +52,16 @@ display_pyramid(pyr, levels)
 /**
  * This function display the pyramid.
  */
+ 
+pyramid_blending(im1, im2, mask, max_levels, filter_size_im, filter_size_mask)
+/**
+ * This function implementing a pyramid blending.
+ */
+ 
+blending_images(image1_name, image2_name, mask_name, max_levels, filter_size_im, filter_size_mask)
+/**
+ * This function implements blending between two images.
+ */
 
 ```
 
@@ -62,11 +72,7 @@ I'm developing on linux and macOS, and the library was tested on linux.
 ## Internal tools
 
 
-- The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.
-
-
-- The following headers are included in the library: 'signal.h' and 'sys/time.h'
-    
+- The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.    
 
 
 
