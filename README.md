@@ -1,10 +1,10 @@
 
 <img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/Blended%20picture.png?raw=true" align="left" width = 300px hight = 300px  hspace="1" vspace="1"/>
 
-# Image-Blending-Project
+# Image-Blending Project
 
-This is an interactive Connect Four program that applies a graphical user interface (GUI) with multiply choices to play.
-All the project is written in Python.
+This program performs blending on two images using pyramid blending. <br>
+The program deals with image pyramids, low-pass and band-pass filtering.<br>
 
 The GUI is done with Tkinter library.
 <br><br><br>
