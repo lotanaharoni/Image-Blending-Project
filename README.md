@@ -13,7 +13,7 @@ The program deals with image pyramids, low-pass and band-pass filtering.<br>
 
 The program performs blending on two images using pyramid blending.<br>
 The program gets three images: two images to blend and one filter image.<br>
-From the filter image it builds a Gaussian pyramid and from the other it builds Laplacian pyramid.<br>
+From the filter image it builds a Gaussian pyramid and from the other it builds Laplacian pyramids.<br>
 The Gaussian pyramids is used like a band-pass filter.
 
 ## Supported OS
@@ -50,7 +50,7 @@ The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayp
 ### Build a Laplacian pyramid from the filter image
 #### In order to blend the images smoothly, represents the high frequencies
 <p align="center">
-<img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/High_frequencies.png?raw=true" width = 400px hight = 400px/>
+<img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/Elsa_High_frequrncies.png?raw=true"/>
 </p>
 
 
