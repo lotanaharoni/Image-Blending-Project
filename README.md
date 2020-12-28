@@ -21,9 +21,8 @@ I'm developing on linux and macOS, and the library was tested on linux.
 ## Internal tools
 
 This program is written in Python.
-- The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.    
+The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.    
 
-<br>
 ## Key Features
 <br>
 
