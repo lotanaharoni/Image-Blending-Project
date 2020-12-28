@@ -29,20 +29,20 @@ The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayp
 ## Key Features
 <br>
 
-### Build a Gaussian pyramid from one picture
-#### I down-sampled the image by taking it's even indexes and up-sample by adding zeros in the odd places.
+### Build a Gaussian pyramid from one image
+#### I down-sampled the image by taking it's even indexes and up-sample by adding zeros in the odd places
 <p align="center">
 <img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/Gaussian%20pyramid-%20Elsa.png?raw=true" width = 400px hight = 400px/>
 </p>
 
-### Build a Gaussian pyramid from the secoond picture
-#### Like the first picture, I used the 'scipy.ndimage.filters.convolve' in order to blur the image.
+### Build a Gaussian pyramid from the secoond image
+#### Like the first image, I used the 'scipy.ndimage.filters.convolve' in order to blur the image
 <p align="center">
 <img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/Gaussian%20pyramid%20-%20mask.png?raw=true" width = 400px hight = 400px/>
 </p>
 
 ### Build a Gaussian pyramid from the mask-image
-#### The mask- image is a boolean image containing True and False representing which parts <br> of im1 and im2 should appear in the resulting im_blend.
+#### The mask- image is a boolean image containing True and False representing which parts <br> of im1 and im2 should appear in the resulting im_blend
 <p align="center">
 <img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/Gaussian%20pyramid.png?raw=true" width = 400px hight = 400px/>
 </p>
