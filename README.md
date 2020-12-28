@@ -8,13 +8,21 @@ The program deals with image pyramids, low-pass and band-pass filtering.<br>
 
 <br><br><br><br><br><br><br>
 
-## Table of Contents
 
-1. [Key Features](#Key-Features)
-2. [Supported OS](#supported-os)
-3. [Internal tools](#Internal-tools)
+## Interodection
 
----
+Some introduction.
+
+
+## Supported OS
+
+I'm developing on linux and macOS, and the library was tested on linux.
+
+## Internal tools
+
+This program is written in Python.
+- The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.    
+
 <br>
 ## Key Features
 <br>
@@ -38,13 +46,5 @@ The program deals with image pyramids, low-pass and band-pass filtering.<br>
 </p>
 
 
-## Supported OS
-
-I'm developing on linux and macOS, and the library was tested on linux.
-
-## Internal tools
-
-This program is written in Python.
-- The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayplotlib'.    
 
     
