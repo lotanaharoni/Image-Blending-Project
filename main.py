@@ -274,5 +274,5 @@ def blending_example1():
     This function is the first blending example.
     :return: im1, im2, mask and the im_blend.
     """
-    return blending_images("externals/ryan.jpg", "externals/lenna.jpg",
-                           "externals/mask_1.jpg", 5, 5, 5)
+    return blending_example("images/mask.jpg", "images/Elsa.jpg",
+                             "images/Binary_mask.jpg", 5, 5, 5)
