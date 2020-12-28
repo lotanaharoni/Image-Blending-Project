@@ -57,7 +57,7 @@ The program used the libraries: 'numpy', 'scipy', 'imageio', 'skimage' and 'mayp
 ### Images blending
 #### The final results
 <p align="center">
-<img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/All%20pictures.png?raw=true" width = 500px hight = 500px/>
+<img src="https://github.com/lotanaharoni/Image-Blending-Project/blob/main/images/All%20pictures.png?raw=true"/>
 </p>
 
 
