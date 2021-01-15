@@ -5,13 +5,10 @@ import matplotlib.pyplot as plt
 import scipy.ndimage.filters
 import os
 
-# The change of bases matrix from YIQ to RGB
 MAX_COLOR = 255
 
-# The base vector
 BASE_VECTOR = np.array([1, 1])
 
-# The lowest resolution image
 LOWEST_RESOLUTION = 16
 
 
